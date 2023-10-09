@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ExploreIndia/static/css/main.05664567.css",
+    "main.js": "/ExploreIndia/static/js/main.1c4545d4.js",
+    "static/js/787.9e1facf4.chunk.js": "/ExploreIndia/static/js/787.9e1facf4.chunk.js",
+    "static/media/india.png": "/ExploreIndia/static/media/india.da2657b967dec834a04f.png",
+    "static/media/user.png": "/ExploreIndia/static/media/user.1d6a4084798835cddef9.png",
+    "index.html": "/ExploreIndia/index.html",
+    "main.05664567.css.map": "/ExploreIndia/static/css/main.05664567.css.map",
+    "main.1c4545d4.js.map": "/ExploreIndia/static/js/main.1c4545d4.js.map",
+    "787.9e1facf4.chunk.js.map": "/ExploreIndia/static/js/787.9e1facf4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05664567.css",
+    "static/js/main.1c4545d4.js"
+  ]
+}

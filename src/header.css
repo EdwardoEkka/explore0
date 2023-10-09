@@ -1,0 +1,90 @@
+/* header.css */
+
+.header {
+    background-color: #1e4d2b;
+    color: #fff;
+    padding: 20px 0;
+    height: 40px;
+  }
+  
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header__content__nav {
+    display: flex;
+    list-style: none;
+    padding: 0; /* Remove padding from ul */
+  }
+  
+  .navbar-list {
+    display: flex;
+    padding: 0; /* Remove padding from ul */
+    gap:40px;
+    font-size: 16px;
+  }
+  
+  .navbar-item {
+    margin-right: 20px;
+    position: relative; /* Create space between items */
+    list-style-type: none;
+  }
+  
+  .navbar-item:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    color: #ffcc00;
+  }
+  
+  .header__content__toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  /* Media query for mobile menu */
+  @media (max-width: 768px) {
+    .header__content__toggle {
+      display: block;
+    }
+  
+    .header__content__nav {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px; /* Adjust this value to control the menu position */
+      left: 20px;
+      background-color: #1e4d2b;
+      z-index: 1;
+      width: 200px;
+      padding: 10px;
+    }
+  
+    .header__content__nav.isMenu {
+      display: flex;
+    }
+    .navbar-list{
+        gap:5px;
+    }
+    .navbar-item {
+      margin: 10px 0;
+    }
+    .navbar-list{
+        flex-direction: column;
+    }
+  }
+  
